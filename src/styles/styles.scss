@@ -1,0 +1,12 @@
+@import 'normalize', 
+        'fonts', 
+        'mixins',  
+        'variables', 
+        'utils', 
+        'globals';
+
+@import '../components/header/header',
+        'blocks/burger-button',
+        'blocks/search-form',
+        '../components/catalog-menu/catalog-menu',
+        '../components/modal/modal';

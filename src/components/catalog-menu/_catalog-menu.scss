@@ -1,0 +1,23 @@
+.catalog-menu {
+    padding-block: 12px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 30px;
+    }
+    &__item {
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--color-dark);
+    }
+
+    &__link {
+
+        &:hover {
+            color: var(--color-celadon);
+            transition-duration: var(--transition-duration);
+        }
+    }
+}
